@@ -74,4 +74,8 @@ input{
       .first{
           height:1100px;
       }
+       .ss p , .ss h1{
+          text-align: center;
+          margin: auto;
+      }
   }
