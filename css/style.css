@@ -59,6 +59,13 @@ p span{
 .invalid-feedback {
    margin-top: -11px;
    margin-bottom: 20px;
+   position: relative;
+   padding: 6px 0px;
+}
+.invalid-feedback p{
+    position: absolute;
+    right: 0;
+    color: #dc3545;
 }
 .was-validated .form-control:invalid{
     background-image: url( "../images/icon-error.svg" );
