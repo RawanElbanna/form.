@@ -15,12 +15,18 @@
   })()
 
   var entry = 0;
- var input = document.getElementById("validationCustomUsername");
+  var input = document.getElementById("validationCustomUsername");
+  var x=document.getElementById("validationCustom03");
+  var y=document.getElementById("validationCustom02");
+  var z=document.getElementById("validationCustom01");
   function change() {
   
     if (entry == 0) {
       document.getElementById("validationCustomUsername").placeholder = "email@example/com"; 
       entry++;
       input.classList.add("red");
+      x.classList.add("tra");
+      y.classList.add("tran");
+      z.classList.add("trans");
     }
 }
