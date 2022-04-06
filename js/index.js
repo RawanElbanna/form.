@@ -15,11 +15,12 @@
   })()
 
   var entry = 0;
-
+ var input = document.getElementById("validationCustomUsername");
   function change() {
   
     if (entry == 0) {
       document.getElementById("validationCustomUsername").placeholder = "email@example/com"; 
       entry++;
+      input.classList.add("red");
     }
 }
