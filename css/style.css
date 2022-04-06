@@ -37,6 +37,15 @@ form{
  .red::placeholder{
     color:#dc3545;
   }
+ .tra::placeholder{
+      color:transparent;
+  }
+  .tran::placeholder{
+      color: transparent;
+  }
+  .trans::placeholder{
+      color: transparent;
+  }
 .btn{
     margin-bottom: 16px;
     margin-top: 30px;
