@@ -22,7 +22,7 @@ body{
    text-align: center;
    background-color: hsl(248, 32%, 49%);
    box-shadow: 0 6px  rgba(0, 0, 0 , 0.2) ;
-   margin-bottom:50px ;
+   margin-bottom:20px ;
 }
 .sec p{
     color: white;
